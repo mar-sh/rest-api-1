@@ -1,11 +1,11 @@
 const chalk = require('chalk');
-// const dotenv = require('dotenv');
+const dotenv = require('dotenv');
 const errorhandler = require('errorhandler');
 const express = require('express');
 const moment = require('moment');
 const morgan = require('morgan');
 
-// dotenv.config();
+dotenv.config();
 
 morgan.token('date', (req, res) => { 
   return moment(req.headers['date']).format('MMMM Do YYYY, h:mm:ss a'); 
