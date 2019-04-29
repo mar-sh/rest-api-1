@@ -1,0 +1,35 @@
+{
+  "name": "rest-api-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar-sh/rest-api-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mar-sh/rest-api-1/issues"
+  },
+  "homepage": "https://github.com/mar-sh/rest-api-1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "lusca": "^1.6.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.10.0",
+    "sequelize": "^5.7.6",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
