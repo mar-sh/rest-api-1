@@ -6,6 +6,7 @@
 
 No|route|http method|request|response|description|
 ---|---|---|---|---|---|
+0|/api/test/|GET|```none```|```status(200), message:{'CONNECTED OK'}```| Test connection|
 1|/api/signup| POST|```body: {username: (string), password: (string)} ```|``` status: (201), user: { userID: (id) ,username:(...)}```| Sign up user
 2|/api/signin|POST|```body: {username:(...), password:(...)}```|```status(200), accessToken:(jwt), user: {userID: (id), username:(...)} ```| Sign in and get access token
 3|/api/todos/| GET|``` headers: { accessToken: 'Bearer jwt'```| ```status(200), todos: [{title: (...), description:(...)}, {title:(...), description:(...)}, ...{}]``` | Get all users todos
